@@ -75,15 +75,15 @@ MonoBehaviour:
     color: {r: 0, g: 0, b: 0, a: 1}
     CloudShapeTexture: {fileID: 2800000, guid: 97ad952672af91945bf10cdac20b8f4f, type: 3}
     Steps: 15
-    BoundsMin: {x: -173.78, y: 896, z: -9.5}
-    BoundsMax: {x: 2972.1, y: 850.7, z: 3018.4}
+    BoundsMin: {x: -174, y: 896, z: -10}
+    BoundsMax: {x: 2972, y: 850, z: 3018}
     CloudScale: 1
-    CloudSmooth: 5
-    Wind: {x: 1, y: 0, z: 0}
-    ContainerEdgeFadeDst: 45
-    DensityThreshold: 0.25
-    DensityMultiplier: 1
-    detailCloudWeight: 0.24
-    DetailCloudNoiseTexture: {fileID: 0}
+    CloudSmooth: 4.43
+    Wind: {x: 0.1, y: 0, z: 0.5}
+    ContainerEdgeFadeDst: 25
+    DensityThreshold: 0.3
+    DensityMultiplier: 0.02
+    detailCloudWeight: 0.4
+    DetailCloudNoiseTexture: {fileID: 11700000, guid: a635211d123fb9c4eb983c213576196f, type: 2}
     DetailCloudScale: 1
     DetailCloudWind: {x: 0.5, y: 0, z: 0}

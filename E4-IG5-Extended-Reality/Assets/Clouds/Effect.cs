@@ -133,4 +133,3 @@ public class Effect : ScriptableRendererFeature
     }
 #endif
 }
-
