@@ -12,6 +12,7 @@ UserSettings/
 
 # Visual Studio
 .vscode/
+.vs/
 *.csproj
 *.sln
 *.suo

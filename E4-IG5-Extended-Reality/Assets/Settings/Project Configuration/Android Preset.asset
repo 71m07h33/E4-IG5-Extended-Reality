@@ -15,8 +15,9 @@ MonoBehaviour:
   debugShaders:
     debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7, type: 3}
     hdrDebugViewPS: {fileID: 4800000, guid: 573620ae32aec764abd4d728906d2587, type: 3}
-  m_RendererFeatures: []
-  m_RendererFeatureMap: 
+  m_RendererFeatures:
+  - {fileID: 3565941500028112962}
+  m_RendererFeatureMap: 42d0ffaee6c47c31
   m_UseNativeRenderPass: 1
   postProcessData: {fileID: 0}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -55,3 +56,34 @@ MonoBehaviour:
   m_CopyDepthMode: 0
   m_AccurateGbufferNormals: 0
   m_IntermediateTextureMode: 0
+--- !u!114 &3565941500028112962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fde696844f1c34e46ab82fa035aac5e1, type: 3}
+  m_Name: Effect
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    material: {fileID: 2100000, guid: caa892449a4934349832f47d65af3481, type: 2}
+    renderPassEvent: 400
+    color: {r: 0, g: 0, b: 0, a: 1}
+    CloudShapeTexture: {fileID: 2800000, guid: 97ad952672af91945bf10cdac20b8f4f, type: 3}
+    Steps: 15
+    BoundsMin: {x: -173.78, y: 896, z: -9.5}
+    BoundsMax: {x: 2972.1, y: 850.7, z: 3018.4}
+    CloudScale: 1
+    CloudSmooth: 5
+    Wind: {x: 1, y: 0, z: 0}
+    ContainerEdgeFadeDst: 45
+    DensityThreshold: 0.25
+    DensityMultiplier: 1
+    detailCloudWeight: 0.24
+    DetailCloudNoiseTexture: {fileID: 0}
+    DetailCloudScale: 1
+    DetailCloudWind: {x: 0.5, y: 0, z: 0}
