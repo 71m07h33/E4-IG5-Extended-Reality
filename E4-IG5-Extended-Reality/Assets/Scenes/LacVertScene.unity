@@ -1435,6 +1435,7 @@ GameObject:
   m_Component:
   - component: {fileID: 814973602}
   - component: {fileID: 814973603}
+  - component: {fileID: 814973604}
   m_Layer: 0
   m_Name: FootstepAudio
   m_TagString: Untagged
@@ -1553,6 +1554,28 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &814973604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814973601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d6bcf009e58d86468683ff03ce8dd31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footstepGrass: {fileID: 8300000, guid: bbe3094500b68c44886c535533386640, type: 3}
+  footstepWood: {fileID: 8300000, guid: 93482e2645fb7434db20dab767a74dcd, type: 3}
+  audioSource: {fileID: 814973603}
+  grassLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  woodLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  stepInterval: 0.5
 --- !u!1 &816981895
 GameObject:
   m_ObjectHideFlags: 0
