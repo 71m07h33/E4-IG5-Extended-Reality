@@ -8,14 +8,14 @@ public class FootstepPlayer : MonoBehaviour
     public LayerMask grassLayer;
     public LayerMask woodLayer;
     public float stepInterval = 0.5f;
+    public CharacterController controller;
 
     private float stepTimer = 0f;
-    private CharacterController controller;
 
-    void Start()
-    {
-        controller = GetComponentInParent<CharacterController>();
-    }
+    //void Start()
+    //{
+    //    controller = transform.root.GetComponentInParent<CharacterController>();
+    //} ch
 
     void Update()
     {

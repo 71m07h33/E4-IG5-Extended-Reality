@@ -1055,6 +1055,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1189420253}
     m_Modifications:
+    - target: {fileID: 1767192434, guid: e3d8b7245e233874d8e2f87f807607ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767192434, guid: e3d8b7245e233874d8e2f87f807607ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767192434, guid: e3d8b7245e233874d8e2f87f807607ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 1767192439, guid: e3d8b7245e233874d8e2f87f807607ae, type: 3}
       propertyPath: far clip plane
       value: 15000
@@ -1138,6 +1150,10 @@ PrefabInstance:
     - target: {fileID: 1717954561962503726, guid: e3d8b7245e233874d8e2f87f807607ae, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232745470614056083, guid: e3d8b7245e233874d8e2f87f807607ae, type: 3}
+      propertyPath: m_IgnoreTrackingState
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1576,6 +1592,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   stepInterval: 0.5
+  controller: {fileID: 441087508}
 --- !u!1 &816981895
 GameObject:
   m_ObjectHideFlags: 0
