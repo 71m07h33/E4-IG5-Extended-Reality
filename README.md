@@ -1,4 +1,4 @@
-# 🏛️ Code Patrimonial — Projet E4-IG5-Extended-Reality
+# 🏛️ Code Patrimonial — Projet E4-IG5-Lac-Vert
 
 ## ⚠️ À propos de ce projet
 Ce dépôt contient un **code patrimonial**, développé dans un cadre académique.  
